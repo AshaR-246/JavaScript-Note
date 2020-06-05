@@ -2,17 +2,21 @@ Numbers and Strings
 JavaScript can understand different kinds of data like numbers and string. Try entering a number in the console:
 
 > 2
+
 Similarly, try entering any string in the console:
 
 > "Hello world"
+
 Remember, strings are enclosed by quotes
 
 Variables
+
 You can store data inside containers (variables) using "var"
 
 Can you store your name inside a variable?
 
 > var name = "Rajeev"
+
 Now call the variable to see what is inside it.
 
 > name
@@ -21,16 +25,23 @@ You can see your name printed in the console.
 Strings are objects in JavaScript and they have some properties and functions defined. You can try some of them.
 
 name.length
+
 name.toUpperCase()
+
+
+
 You will be able to see your name in all caps.
 
 You can also store any number inside the variable.
 
 > var num = 5
+
 You can also convert a string into a number:
 
 parseInt("123")
+
 Arithmetic Operations
+
 You can use arithmetic operations on numbers using arithmetic operators (+ , - , /, *, %).
 
 Note: Remind students that modulo(%) sign gives you a remainder between two numbers.
@@ -45,6 +56,7 @@ You can try doing different arithmetic operations on the console.
 Try using '+' arithmetic operator on strings and guess what will happen:
 
 "Hi" + "Friend"
+
 Strings get joined together when you add them.
 
 Now try using any other arithmetic operation on strings like division (/)
@@ -157,6 +169,7 @@ We used classes to design blue prints of objects in javascript and then used new
 Internally JavaScript creates a new object using new Object()
 
 var paddle = new Object();
+
 You can assign new properties and functions to test object.
 
 Ask the student to assign a new property and function to a test object
